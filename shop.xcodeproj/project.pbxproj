@@ -13,6 +13,15 @@
 		84F0EC7B25CB0E2600F7CFEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F0EC7925CB0E2600F7CFEB /* Main.storyboard */; };
 		84F0EC7D25CB0E3800F7CFEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F0EC7C25CB0E3800F7CFEB /* Assets.xcassets */; };
 		84F0EC8025CB0E3800F7CFEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F0EC7E25CB0E3800F7CFEB /* LaunchScreen.storyboard */; };
+		84F0EC8925CB132A00F7CFEB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0EC8825CB132A00F7CFEB /* SecondViewController.swift */; };
+		84F0EC8C25CB209600F7CFEB /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0EC8B25CB209600F7CFEB /* CartVC.swift */; };
+		84F0EC8F25CB20D400F7CFEB /* ItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0EC8E25CB20D400F7CFEB /* ItemInfoVC.swift */; };
+		84F0EC9825CBB01400F7CFEB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0EC9725CBB01400F7CFEB /* TableViewCell.swift */; };
+		84F0ECA325CBB5D200F7CFEB /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F0ECA225CBB5D200F7CFEB /* TableViewCell.xib */; };
+		84F0ECAB25CEB71600F7CFEB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0ECAA25CEB71600F7CFEB /* CollectionViewCell.swift */; };
+		84F0ECAE25CEB78500F7CFEB /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F0ECAD25CEB78500F7CFEB /* CollectionViewCell.xib */; };
+		84F0ECB425CFFEBC00F7CFEB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0ECB225CFFEBC00F7CFEB /* ThirdViewController.swift */; };
+		84F0ECB525CFFEBD00F7CFEB /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F0ECB325CFFEBC00F7CFEB /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		84F0EC7C25CB0E3800F7CFEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F0EC7F25CB0E3800F7CFEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F0EC8125CB0E3800F7CFEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F0EC8825CB132A00F7CFEB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		84F0EC8B25CB209600F7CFEB /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		84F0EC8E25CB20D400F7CFEB /* ItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoVC.swift; sourceTree = "<group>"; };
+		84F0EC9725CBB01400F7CFEB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		84F0ECA225CBB5D200F7CFEB /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		84F0ECAA25CEB71600F7CFEB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		84F0ECAD25CEB78500F7CFEB /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		84F0ECB225CFFEBC00F7CFEB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		84F0ECB325CFFEBC00F7CFEB /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +77,19 @@
 				84F0EC7325CB0E2600F7CFEB /* AppDelegate.swift */,
 				84F0EC7525CB0E2600F7CFEB /* SceneDelegate.swift */,
 				84F0EC7725CB0E2600F7CFEB /* ViewController.swift */,
+				84F0EC8825CB132A00F7CFEB /* SecondViewController.swift */,
+				84F0EC8B25CB209600F7CFEB /* CartVC.swift */,
+				84F0EC8E25CB20D400F7CFEB /* ItemInfoVC.swift */,
 				84F0EC7925CB0E2600F7CFEB /* Main.storyboard */,
 				84F0EC7C25CB0E3800F7CFEB /* Assets.xcassets */,
 				84F0EC7E25CB0E3800F7CFEB /* LaunchScreen.storyboard */,
 				84F0EC8125CB0E3800F7CFEB /* Info.plist */,
+				84F0EC9725CBB01400F7CFEB /* TableViewCell.swift */,
+				84F0ECA225CBB5D200F7CFEB /* TableViewCell.xib */,
+				84F0ECAA25CEB71600F7CFEB /* CollectionViewCell.swift */,
+				84F0ECAD25CEB78500F7CFEB /* CollectionViewCell.xib */,
+				84F0ECB225CFFEBC00F7CFEB /* ThirdViewController.swift */,
+				84F0ECB325CFFEBC00F7CFEB /* ThirdViewController.xib */,
 			);
 			path = shop;
 			sourceTree = "<group>";
@@ -125,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F0EC8025CB0E3800F7CFEB /* LaunchScreen.storyboard in Resources */,
+				84F0ECA325CBB5D200F7CFEB /* TableViewCell.xib in Resources */,
+				84F0ECB525CFFEBD00F7CFEB /* ThirdViewController.xib in Resources */,
 				84F0EC7D25CB0E3800F7CFEB /* Assets.xcassets in Resources */,
 				84F0EC7B25CB0E2600F7CFEB /* Main.storyboard in Resources */,
+				84F0ECAE25CEB78500F7CFEB /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F0EC8925CB132A00F7CFEB /* SecondViewController.swift in Sources */,
+				84F0ECB425CFFEBC00F7CFEB /* ThirdViewController.swift in Sources */,
+				84F0EC8F25CB20D400F7CFEB /* ItemInfoVC.swift in Sources */,
+				84F0ECAB25CEB71600F7CFEB /* CollectionViewCell.swift in Sources */,
 				84F0EC7825CB0E2600F7CFEB /* ViewController.swift in Sources */,
 				84F0EC7425CB0E2600F7CFEB /* AppDelegate.swift in Sources */,
+				84F0EC8C25CB209600F7CFEB /* CartVC.swift in Sources */,
+				84F0EC9825CBB01400F7CFEB /* TableViewCell.swift in Sources */,
 				84F0EC7625CB0E2600F7CFEB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
